@@ -1,8 +1,7 @@
 '''
-Gameboy Advance styled pixelart version (so-called demake) of the glorious Mario Party 3 minigame Parasol Plummet
+2D pixelart demake of the glorious Mario Party 3 minigame Parasol Plummet
 https://www.mariowiki.com/Parasol_Plummet
-Code by Kevin Spathmann (Pfeifenreiniger on GitHub: https://github.com/Pfeifenreiniger)
-Graphics also by Kevin Spathmann (inspired by Nintendo™ originals)
+Code and graphics by Kevin Spathmann (Pfeifenreiniger on GitHub: https://github.com/Pfeifenreiniger)
 Fonts used: "Mario Kart DS" by David (https://www.dafont.com/mario-kart-ds.font)
             "Super Mario 64 DS" by David (https://www.dafont.com/super-mario-64-ds.font)
 Musics, SFX, and voices used from Nintendo™ originals (like Mario Party 5, Super Smash Bros. 64 or Super Mario 64)
@@ -19,7 +18,7 @@ mario64_font = pygame.font.Font("font/Super-Mario-64-DS.ttf", 20)
 
 ## display screen ##
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Parasol Plummet GBA Styled Demake")
+pygame.display.set_caption("Parasol Plummet 2D Demake")
 icon = pygame.image.load("graphics/game_icon.png").convert_alpha()
 pygame.display.set_icon(icon)
 fps = 30
